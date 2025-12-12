@@ -19,7 +19,7 @@ The goal of this project is to thoroughly analyze the Superstore dataset and ext
 - **Risk Analysis:** Identification of loss-making products, return-prone categories, and discount-driven margin erosion.
 
 An interactive Power BI dashboard (Overview, Breakdown, Risk Analysis pages) can be downloaded 
-[here](/Sales%20Perfomance%20Analysis%20.pbix)
+[here](https://github.com/rishikesavan-data/Superstore-Sales-Analysis-Dashboard/blob/main/Sales%20Perfomance%20Analysis%20.pbix)
 
 ### The SQL queries used for EDA and preprocessing can be found in:
 
