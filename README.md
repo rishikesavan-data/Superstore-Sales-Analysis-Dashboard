@@ -2,7 +2,7 @@
 
 The Superstore dataset represents four years of U.S. retail transactions across multiple product categories and customer segments.
 Although widely used, much of this data is often underutilized for real business insight.
-This project transforms that raw dataset into a comprehensive business intelligence solution.
+This project transforms the raw dataset into a comprehensive business intelligence solution.
 
 The goal of this project is to thoroughly analyze the Superstore dataset and extract actionable insights related to sales performance, profitability, customer behavior, discount impact, and operational risk.
 
@@ -23,12 +23,9 @@ An interactive Power BI dashboard (Overview, Breakdown, Risk Analysis pages) can
 
 ### The SQL queries used for EDA and preprocessing can be found in:
 
-Initial Data Checks: [here](/SQL%20Queries/01_Initial_Data_Checks.sql)
-
-Cleaning & Preparation: [here](/SQL%20Queries/02_Data_Cleaning_Preparation.sql)
-
-Business Questions: [here](/SQL%20Queries/03_Business_Questions_Analysis.sql.sql)
-
+Initial Data Checks: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/01_Initial_Data_Checks.sql)
+Cleaning & Preparation: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/02_Data_Cleaning_Preparation.sql)
+Business Questions: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/03_Business_Questions_Analysis.sql.sql)
 
 # 🧱 Data Structure & Initial Checks
 
@@ -40,7 +37,7 @@ Key Columns:
 
 **Measures:** Sales, Profit, Discount, Quantity, Returned Orders
 
-A series of initial quality checks were performed to validate:
+A series of initial quality checks was performed to validate:
 
 - Row count (9,994 records)
 
@@ -50,9 +47,9 @@ A series of initial quality checks were performed to validate:
 
 - Mixed date formats (mm/dd/yyyy vs dd-mm-yyyy)
 
-- Datatype mismatches preventing SQL import
+- Datatype mismatches are preventing SQL import
 
-The SQL scripts for initial checks can be found here.
+The SQL scripts for initial checks are available here.
 
 # 🧹 Data Cleaning & Preparation
 
@@ -84,9 +81,9 @@ MySQL Import Cleanup
 
 Fixes applied:
 
-- Created custom MySQL schema with proper datatypes
+- Created a custom MySQL schema with proper datatypes
 
-- Reformatted entire dataset and exported to CSV
+- Reformatted the entire dataset and exported to CSV
 
 - Loaded using LOAD DATA INFILE successfully importing all 9,994 rows
 
@@ -110,9 +107,9 @@ Key findings include:
 
 - Return rates vary notably by category, directly affecting profit.
 
-Below is the Overview Dashboard from the Power BI report (more visuals included in later sections).
+Below is the Overview Dashboard from the Power BI report (with additional visuals in later sections).
 
-![Overview](/Images/Overview%20Page%20.png)
+![Overview](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/Page%201%20Overview.png)
 
 ### 📈 Sales Trends
 
@@ -124,7 +121,7 @@ Below is the Overview Dashboard from the Power BI report (more visuals included 
 
 - Average Order Value (AOV) remains relatively stable, showing healthy customer spending habits.
 
-![Sales trend analysis](/images/Sales%20Trend%20Analysis%20View%20.png)
+![Sales trend analysis](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/Sales%20Trend%20Analysis%20View%20.png)
 
 ### 📦 Category & Product Performance
 
@@ -138,9 +135,9 @@ Product-Level Highlights:
 
 - Several products consistently generate negative profit, primarily due to heavy discounting or frequent returns.
 
-- High-performing products appear in Technology and Office Supplies categories.
+- High-performing products appear in the Technology and Office Supplies categories.
 
-![Product Performance Visual](/Images/Product%20Perfomance%20View.png)
+![Product Performance Visual](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/Product%20Perfomance%20View.png)
 
 ### 👥 Customer Insights
 
@@ -154,7 +151,7 @@ Product-Level Highlights:
 
 - High-value clients tend to remain consistent year over year.
 
-![Top Clients](/images/Top%20Clients%20View%20.png)
+![Top Clients](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/Top%20Clients%20View%20.png)
 
 ### ⚠️ Discount & Return Impact
 Discount Analysis:
@@ -165,11 +162,11 @@ Discount Analysis:
 
 Return Analysis:
 
-- Return rates are highest in Technology and Furniture categories.
+- Return rates are highest in the Technology and Furniture categories.
 
 - Returned profit loss is concentrated in a small set of products.
 
-![Risk](/images/Risk%20Analysis%20Page%20.png)
+![Risk](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/Page%203.0%20Risk%20Analysis%20.png)
 
 # 🎯 Recommendations
 
