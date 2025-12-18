@@ -62,3 +62,4 @@ UPDATE superstore SET Region = TRIM(Region);
 
 -- STEP 6: Validate final row count
 SELECT COUNT(*) AS Final_Row_Count FROM superstore;
+
