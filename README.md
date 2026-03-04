@@ -1,6 +1,6 @@
 # 🛒 Project Background
 
-The Superstore dataset represents four years of U.S. retail transactions across multiple product categories and customer segments.
+The Superstore dataset is based on a fictional retail company that represents four years of U.S. retail transactions across multiple product categories and customer segments.
 Although widely used, much of this data is often underutilized for real business insight.
 This project transforms the raw dataset into a comprehensive business intelligence solution.
 
